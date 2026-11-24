@@ -3,37 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Painel de acompanhamento</title>
-<meta name="description" content="Painel de acompanhamento do projeto">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1d39'/%3E%3Ctext x='32' y='41' font-family='Arial' font-size='22' font-weight='700' fill='white' text-anchor='middle'%3ENPE%3C/text%3E%3C/svg%3E">
-<style>
-html,body{margin:0;height:100%;background:#0b1d39;overflow:hidden}
-iframe{position:fixed;inset:0;width:100%;height:100%;border:0;background:#eef2f7}
-#ld{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;color:#cbd5e1;font:15px/1.4 system-ui,Segoe UI,Arial,sans-serif;z-index:2;background:#0b1d39;transition:opacity .4s;text-align:center;padding:24px;box-sizing:border-box}
-#ld.off{opacity:0;pointer-events:none}
-#lg{width:132px;height:132px;border-radius:20px;background:#fff;display:none;align-items:center;justify-content:center;overflow:hidden;padding:12px;box-sizing:border-box;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-#lg img{max-width:100%;max-height:100%;object-fit:contain}
-#em{letter-spacing:.14em;color:#60a5fa;font-size:12px;font-weight:700;min-height:16px}
-#nm{color:#f1f5f9;font-size:22px;font-weight:700;line-height:1.3;max-width:660px}
-#ld i{width:34px;height:34px;border-radius:50%;border:3px solid #334e7a;border-top-color:#60a5fa;animation:g 1s linear infinite;margin-top:6px}
-#st{color:#94a3b8}
-#ld a{color:#93c5fd}
-@keyframes g{to{transform:rotate(360deg)}}
-</style>
+<title>Painel de acompanhamento · endereço novo</title>
+<meta http-equiv="refresh" content="0; url=https://dadosapps00.github.io/painel-MH1BC07/">
+<link rel="canonical" href="https://dadosapps00.github.io/painel-MH1BC07/">
+<style>html,body{margin:0;height:100%;background:#0b1d39;color:#cbd5e1;font:15px/1.5 system-ui,Segoe UI,Arial,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center}a{color:#93c5fd}</style>
+<script>location.replace("https://dadosapps00.github.io/painel-MH1BC07/"+location.search+location.hash);</script>
 </head>
 <body>
-<div id="ld"><div id="lg"></div><div id="em"></div><div id="nm">Painel de acompanhamento</div><i></i><div id="st">Carregando o painel…</div><small id="fb" style="opacity:0">Demorando? <a href="https://script.google.com/macros/s/AKfycbwthHS3G1mYa2WrLPbXjpvZlqhP0F2uIX97IgrfoAfwnSnrBE0ueE5yXYPG43SIZkWU7A/exec" target="_top" rel="noopener">Abrir o painel direto</a></small></div>
-<iframe id="p" src="https://script.google.com/macros/s/AKfycbwthHS3G1mYa2WrLPbXjpvZlqhP0F2uIX97IgrfoAfwnSnrBE0ueE5yXYPG43SIZkWU7A/exec" title="Painel de acompanhamento" allow="clipboard-write; fullscreen"></iframe>
-<script>
-var U="https://script.google.com/macros/s/AKfycbwthHS3G1mYa2WrLPbXjpvZlqhP0F2uIX97IgrfoAfwnSnrBE0ueE5yXYPG43SIZkWU7A/exec",K="painel.marca.v1",p=document.getElementById("p"),ld=document.getElementById("ld");
-// Logo e nome do projeto: mostra na hora o que ficou guardado da última visita e atualiza com o que está em Configurações do painel.
-function marca(m){if(!m)return;try{if(m.logo&&/^data:image\//.test(m.logo)){var g=document.getElementById("lg"),im=new Image();g.innerHTML="";im.alt="";im.src=m.logo;g.appendChild(im);g.style.display="flex"}if(m.empresa!=null)document.getElementById("em").textContent=m.empresa;if(m.projeto){document.getElementById("nm").textContent=m.projeto;document.title=m.projeto+" · Painel de acompanhamento";p.title=m.projeto}}catch(e){}}
-try{marca(JSON.parse(localStorage.getItem(K)||"null"))}catch(e){}
-window.__marca=function(m){if(m&&m.ok){marca(m);try{localStorage.setItem(K,JSON.stringify({projeto:m.projeto,empresa:m.empresa,logo:m.logo}))}catch(e){}}};
-var s=document.createElement("script");s.src=U+"?api=marca&cb=__marca";s.async=true;document.head.appendChild(s);
-p.addEventListener("load",function(){setTimeout(function(){ld.classList.add("off")},1200)});
-setTimeout(function(){document.getElementById("fb").style.opacity=1},8000);
-setTimeout(function(){ld.classList.add("off")},20000);
-</script>
+<p>O painel mudou de endereço.<br><a href="https://dadosapps00.github.io/painel-MH1BC07/">Abrir https://dadosapps00.github.io/painel-MH1BC07/</a></p>
 </body>
 </html>
